@@ -1,0 +1,8 @@
+# This script calculates the volume of a sphere and print it to the screen
+from math import pi
+d= input('the diametre of the cell is')
+r= float(d)/2.0
+v= ((4.0/3.0)*pi)*r**3
+print ("the volume of the cell would be: %f" %(v))
+
+
